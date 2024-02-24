@@ -10,3 +10,8 @@ cursor = connection.cursor()
 print("got the cursor , we can pass commands now ....")
 
 cursor.execute("CREATE TABLE AiModels(ID , name , type , generation)")
+
+
+# ! close teh conenction  : 
+
+connection.close()
